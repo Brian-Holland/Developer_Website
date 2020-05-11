@@ -135,6 +135,11 @@ img {
       font-size: 4rem;
       line-height: 1.2; }
 
+#header-inner {
+  background: url("../img/showcase2.jpg") no-repeat 20% 30%/cover;
+  height: 5.5rem;
+  border-bottom: 3px solid #ffbc00; }
+
 #home-a .specials {
   margin-top: 3rem;
   display: grid;
@@ -172,6 +177,7 @@ img {
     right: 0;
     font-size: 28px;
     background-color: #ffbc00;
+    color: #fff;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -195,7 +201,8 @@ img {
       height: 90px;
       line-height: 90px; }
       #home-c .process-icon:hover .process-step {
-        background: #333; }
+        background: #333;
+        color: #fff; }
 
 #main-footer {
   background: #333;
